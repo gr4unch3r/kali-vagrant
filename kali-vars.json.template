@@ -1,4 +1,4 @@
-# Get latest values from https://www.kali.org/get-kali/#kali-bare-metal
+# Get latest values from https://cdimage.kali.org/current/
 
 {
   "iso_url": "KALI_ISO_URL",
