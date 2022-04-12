@@ -15,7 +15,7 @@ Then `cp kali-vars.json.template kali-vars.json` and fill the values.
 ## Running the build
 
 ```
-packer build -var-file=kali-vars.json config.json
+packer build -only=[vmware|virtualbox]-iso -var-file=kali-vars.json config.json
 ```
 
 This will upload to the Vagrant cloud.
