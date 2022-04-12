@@ -1,6 +1,6 @@
 # Get latest values from https://cdimage.kali.org/current/
 
 {
-  "iso_url": "KALI_ISO_URL",
-  "iso_checksum": "SHA256CHECKSUM",
+  "iso_url": "https://cdimage.kali.org/current/kali-linux-*.*-installer-amd64.iso",
+  "iso_checksum": "SHA256SUM",
 }
