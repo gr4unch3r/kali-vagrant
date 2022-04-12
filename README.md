@@ -10,7 +10,7 @@ On Kali Linux, this can be accomplished by running
 apt install packer virtualbox virtuabox-ext-pack
 ```
 
-Then `cp kali-vars.json.template kali-vars.json` and fill the values.
+Then `cp kali-vars.json.template kali-vars.json` and fill the values from [https://www.kali.org/get-kali/#kali-bare-metal](https://www.kali.org/get-kali/#kali-bare-metal).
 
 ## Running the build
 
