@@ -18,9 +18,6 @@ Then `cp kali-vars.json.template kali-vars.json` and fill the values from [https
 packer build -only=[vmware|virtualbox]-iso -var-file=kali-vars.json config.json
 ```
 
-This will upload to the Vagrant cloud.
-To avoid doing that and keeping the build local, remove the `vagrant-cloud` post-processor from the config file.
-
 ## Running the build (headless)
 To run headless builds, you will need to ensure you have the Extension Pack installed and then edit the config.json file to add
 ```
